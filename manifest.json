@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Text Diff Tool",
+  "version": "1.0.0",
+  "description": "Compare two texts and see the differences between them",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Open Text Diff"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
